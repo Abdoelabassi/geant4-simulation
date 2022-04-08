@@ -100,8 +100,66 @@ CMakeFiles/sim.dir/construction.cc.o
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/templates.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/tls.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/windefs.hh
+CMakeFiles/sim.dir/physics.cc.o
+ /home/aelabass/Documents/HyperK/geant4-simulation-v1/physics.cc
+ /home/aelabass/Documents/HyperK/geant4-simulation-v1/physics.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/CLHEP/Units/PhysicalConstants.h
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/CLHEP/Units/SystemOfUnits.h
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/CLHEP/Utility/defs.h
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/CLHEP/Vector/ThreeVector.h
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/CLHEP/Vector/ThreeVector.icc
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4ApplicationState.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4AutoLock.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4EmStandardPhysics.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4ExceptionSeverity.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4GeomSplitter.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4MCCIndexConversionTable.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4MaterialCutsCouple.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4OpticalPhysics.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4OpticalPhysicsMessenger.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4OpticalProcessIndex.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4OpticalSurface.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4PDefSplitter.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4ParticleDefinition.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4ParticleDefinition.icc
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4ParticleTable.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4ParticleTable.icc
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4ParticleTableIterator.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4Physics2DVector.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4Physics2DVector.icc
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4PhysicsListHelper.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4PhysicsListOrderingParameter.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4PhysicsVectorType.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4ProductionCuts.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4ProductionCutsTable.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4Region.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4Region.icc
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4String.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4String.icc
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4SurfaceProperty.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4Threading.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4ThreeVector.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4Types.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4UIcommand.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4UIdirectory.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4UImessenger.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4UIparameter.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4UItokenNum.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4VModularPhysicsList.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4VPhysicsConstructor.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4VUPLSplitter.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4VUserPhysicsList.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4ios.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/geomwdefs.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/globals.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/pwdefs.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/rundefs.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/templates.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/tls.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/windefs.hh
 CMakeFiles/sim.dir/sim.cc.o
  /home/aelabass/Documents/HyperK/geant4-simulation-v1/construction.hh
+ /home/aelabass/Documents/HyperK/geant4-simulation-v1/physics.hh
  /home/aelabass/Documents/HyperK/geant4-simulation-v1/sim.cc
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/CLHEP/Geometry/Normal3D.h
@@ -203,6 +261,7 @@ CMakeFiles/sim.dir/sim.cc.o
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4Element.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4ElementTable.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4ElementVector.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4EmStandardPhysics.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4Event.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4EventManager.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4ExceptionSeverity.hh
@@ -230,7 +289,9 @@ CMakeFiles/sim.dir/sim.cc.o
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4LogicalVolume.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4LogicalVolume.icc
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4LorentzVector.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4MCCIndexConversionTable.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4Material.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4MaterialCutsCouple.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4MaterialPropertiesTable.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4MaterialPropertiesTable.icc
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4MaterialPropertyVector.hh
@@ -259,6 +320,10 @@ CMakeFiles/sim.dir/sim.cc.o
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4OpenGLQt.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4OpenGLStoredQt.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4OpenGLStoredX.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4OpticalPhysics.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4OpticalPhysicsMessenger.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4OpticalProcessIndex.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4OpticalSurface.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4OrderedTable.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4PDefSplitter.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4PVPlacement.hh
@@ -273,6 +338,10 @@ CMakeFiles/sim.dir/sim.cc.o
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4ParticleTable.icc
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4ParticleTableIterator.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4PhysicalVolumeModel.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4Physics2DVector.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4Physics2DVector.icc
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4PhysicsListHelper.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4PhysicsListOrderingParameter.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4PhysicsModelCatalog.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4PhysicsOrderedFreeVector.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4PhysicsOrderedFreeVector.icc
@@ -293,6 +362,8 @@ CMakeFiles/sim.dir/sim.cc.o
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4ProcessType.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4ProcessVector.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4ProcessVector.icc
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4ProductionCuts.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4ProductionCutsTable.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4RayTracer.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4RayTracerX.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4ReferenceCountedHandle.hh
@@ -327,6 +398,7 @@ CMakeFiles/sim.dir/sim.cc.o
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4SteppingManager.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4String.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4String.icc
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4SurfaceProperty.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4SystemOfUnits.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4THitsCollection.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4THitsMap.hh
@@ -376,11 +448,13 @@ CMakeFiles/sim.dir/sim.cc.o
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4VModel.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4VModel.icc
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4VModelFactory.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4VModularPhysicsList.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4VPVParameterisation.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4VParticleChange.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4VParticleChange.icc
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4VPhysicalVolume.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4VPhysicalVolume.icc
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4VPhysicsConstructor.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4VProcess.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4VRML1File.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4VRML2File.hh
@@ -396,8 +470,10 @@ CMakeFiles/sim.dir/sim.cc.o
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4VTrajectoryModel.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4VTree.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4VUIshell.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4VUPLSplitter.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4VUserDetectorConstruction.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4VUserEventInformation.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4VUserPhysicsList.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4VUserTrackInformation.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4VViewer.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4VViewer.icc
@@ -432,6 +508,7 @@ CMakeFiles/sim.dir/sim.cc.o
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/geomwdefs.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/globals.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/pwdefs.hh
+ /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/rundefs.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/templates.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/tls.hh
  /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/trajectoryControl.hh
