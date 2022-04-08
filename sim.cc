@@ -7,12 +7,14 @@
 
 
 #include "construction.hh"
+#include "physics.hh"
 
 
 int main(int argc, char** argv){
 
 	G4RunManager *runManager = new G4RunManager();
 	runManager->SetUserInitialization(new MyDetectorConstruction());
+	runManager->SetUserInitialization(new myphysicsList());
 	runManager->Initialize();
 
 	G4UIExecutive *ui = new G4UIExecutive(argc, argv);
@@ -22,6 +24,9 @@ int main(int argc, char** argv){
 
 
 	G4UImanager *uiManager =  G4UImanager::GetUIpointer();
+	uiManager->ApplyCommand("/vis/open OGLSQt");
+	uiManager->ApplyCommand("/vis/viewer/set/viewpointVector 1 1 1");
+	uiManager->ApplyCommand("/vis/drawVolume");
 
 
 	ui->SessionStart();
