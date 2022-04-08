@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/aelabass/Documents/HyperK/geant4-simulation-v1/Construction.hh
+/home/aelabass/Documents/HyperK/geant4-simulation-v1/construction.cc
+construction.hh
+/home/aelabass/Documents/HyperK/geant4-simulation-v1/construction.hh
+
+/home/aelabass/Documents/HyperK/geant4-simulation-v1/construction.hh
 G4VUserDetectorConstruction.hh
 /home/aelabass/Documents/HyperK/geant4-simulation-v1/G4VUserDetectorConstruction.hh
 G4SystemOfUnits.hh
@@ -35,8 +39,8 @@ G4VisManager.hh
 /home/aelabass/Documents/HyperK/geant4-simulation-v1/G4VisManager.hh
 G4VisExecutive.hh
 /home/aelabass/Documents/HyperK/geant4-simulation-v1/G4VisExecutive.hh
-Construction.hh
-/home/aelabass/Documents/HyperK/geant4-simulation-v1/Construction.hh
+construction.hh
+/home/aelabass/Documents/HyperK/geant4-simulation-v1/construction.hh
 
 /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
 iosfwd

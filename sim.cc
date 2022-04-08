@@ -4,13 +4,15 @@
 #include "G4UImanager.hh"
 #include "G4VisManager.hh"
 #include "G4VisExecutive.hh"
-#include "Construction.hh"
+
+
+#include "construction.hh"
 
 
 int main(int argc, char** argv){
 
 	G4RunManager *runManager = new G4RunManager();
-	runManager->SetUserInitialization(new myDetectorConstruction());
+	runManager->SetUserInitialization(new MyDetectorConstruction());
 	runManager->Initialize();
 
 	G4UIExecutive *ui = new G4UIExecutive(argc, argv);
