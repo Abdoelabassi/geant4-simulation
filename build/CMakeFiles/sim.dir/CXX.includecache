@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+/home/aelabass/Documents/HyperK/geant4-simulation-v1/Construction.hh
+G4VUserDetectorConstruction.hh
+/home/aelabass/Documents/HyperK/geant4-simulation-v1/G4VUserDetectorConstruction.hh
+G4SystemOfUnits.hh
+/home/aelabass/Documents/HyperK/geant4-simulation-v1/G4SystemOfUnits.hh
+G4Box.hh
+/home/aelabass/Documents/HyperK/geant4-simulation-v1/G4Box.hh
+G4LogicalVolume.hh
+/home/aelabass/Documents/HyperK/geant4-simulation-v1/G4LogicalVolume.hh
+G4PVPlacement.hh
+/home/aelabass/Documents/HyperK/geant4-simulation-v1/G4PVPlacement.hh
+G4VPhysicalVolume.hh
+/home/aelabass/Documents/HyperK/geant4-simulation-v1/G4VPhysicalVolume.hh
+G4NistManager.hh
+/home/aelabass/Documents/HyperK/geant4-simulation-v1/G4NistManager.hh
+
 /home/aelabass/Documents/HyperK/geant4-simulation-v1/sim.cc
 iostream
 -
@@ -19,6 +35,8 @@ G4VisManager.hh
 /home/aelabass/Documents/HyperK/geant4-simulation-v1/G4VisManager.hh
 G4VisExecutive.hh
 /home/aelabass/Documents/HyperK/geant4-simulation-v1/G4VisExecutive.hh
+Construction.hh
+/home/aelabass/Documents/HyperK/geant4-simulation-v1/Construction.hh
 
 /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h
 iosfwd
@@ -536,6 +554,22 @@ G4BlockingList.icc
 
 /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4BlockingList.icc
 
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4Box.hh
+G4UBox.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4UBox.hh
+G4CSGSolid.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4CSGSolid.hh
+G4Polyhedron.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4Polyhedron.hh
+G4Box.icc
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4Box.icc
+
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4Box.icc
+
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4CSGSolid.hh
+G4VSolid.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4VSolid.hh
+
 /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4ClassificationOfNewTrack.hh
 
 /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4Color.hh
@@ -687,6 +721,14 @@ globals.hh
 /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/globals.hh
 
 /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4ExceptionSeverity.hh
+
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4Exp.hh
+limits
+-
+stdint.h
+-
+G4Types.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4Types.hh
 
 /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4FastVector.hh
 globals.hh
@@ -1014,6 +1056,40 @@ G4Navigator.icc
 
 /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4Navigator.icc
 
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4NistElementBuilder.hh
+vector
+-
+CLHEP/Units/PhysicalConstants.h
+-
+globals.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/globals.hh
+
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4NistManager.hh
+vector
+-
+CLHEP/Units/PhysicalConstants.h
+-
+globals.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/globals.hh
+G4Material.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4Material.hh
+G4NistElementBuilder.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4NistElementBuilder.hh
+G4NistMaterialBuilder.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4NistMaterialBuilder.hh
+G4Pow.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4Pow.hh
+
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4NistMaterialBuilder.hh
+vector
+-
+CLHEP/Units/PhysicalConstants.h
+-
+globals.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/globals.hh
+G4Material.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4Material.hh
+
 /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4Normal3D.hh
 globals.hh
 /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/globals.hh
@@ -1081,6 +1157,12 @@ pwdefs.hh
 /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/pwdefs.hh
 G4AutoLock.hh
 /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4AutoLock.hh
+
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4PVPlacement.hh
+G4VPhysicalVolume.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4VPhysicalVolume.hh
+G4Transform3D.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4Transform3D.hh
 
 /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4ParameterisedNavigation.hh
 G4Types.hh
@@ -1253,6 +1335,24 @@ globals.hh
 /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/globals.hh
 CLHEP/Geometry/Point3D.h
 -
+
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4Polyhedron.hh
+globals.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/globals.hh
+HepPolyhedron.h
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/HepPolyhedron.h
+G4Visible.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4Visible.hh
+
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4Pow.hh
+globals.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/globals.hh
+G4Log.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4Log.hh
+G4Exp.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4Exp.hh
+G4DataVector.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4DataVector.hh
 
 /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4PrimaryParticle.hh
 globals.hh
@@ -1634,6 +1734,10 @@ G4String.icc
 
 /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4String.icc
 
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4SystemOfUnits.hh
+CLHEP/Units/SystemOfUnits.h
+-
+
 /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4THitsCollection.hh
 G4VHitsCollection.hh
 /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4VHitsCollection.hh
@@ -1826,6 +1930,14 @@ complex
 tls.hh
 /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/tls.hh
 
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4UBox.hh
+G4USolid.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4USolid.hh
+UBox.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/UBox.hh
+G4Polyhedron.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4Polyhedron.hh
+
 /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4UIExecutive.hh
 G4VUIshell.hh
 /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4VUIshell.hh
@@ -1881,6 +1993,12 @@ G4UItokenNum.hh
 /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4UItokenNum.hh
 globals.hh
 /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/globals.hh
+
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4USolid.hh
+G4VSolid.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4VSolid.hh
+VUSolid.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/VUSolid.hh
 
 /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4UserStackingAction.hh
 G4ClassificationOfNewTrack.hh
@@ -2142,6 +2260,12 @@ G4VGraphicsSystem.hh
 globals.hh
 /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/globals.hh
 
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4VUserDetectorConstruction.hh
+vector
+-
+globals.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/globals.hh
+
 /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4VUserEventInformation.hh
 
 /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4VUserTrackInformation.hh
@@ -2374,6 +2498,16 @@ G4Types.hh
 iostream
 -
 
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/HepPolyhedron.h
+G4Types.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4Types.hh
+G4Point3D.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4Point3D.hh
+G4Normal3D.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4Normal3D.hh
+G4Transform3D.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/G4Transform3D.hh
+
 /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/Randomize.hh
 CLHEP/Random/Randomize.h
 -
@@ -2407,6 +2541,56 @@ CLHEP/Random/RandExponential.h
 -
 CLHEP/Random/RandGeneral.h
 -
+
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/UBox.hh
+VUSolid.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/VUSolid.hh
+UUtils.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/UUtils.hh
+
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/UTypes.hh
+UVector3.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/UVector3.hh
+iostream
+-
+string
+-
+vector
+-
+
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/UUtils.hh
+UVector3.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/UVector3.hh
+iostream
+-
+fstream
+-
+limits
+-
+cmath
+-
+cfloat
+-
+vector
+-
+algorithm
+-
+
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/UVector3.hh
+cmath
+-
+iostream
+-
+fstream
+-
+
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/VUSolid.hh
+UTypes.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/UTypes.hh
+UVector3.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/UVector3.hh
+UUtils.hh
+/home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/UUtils.hh
 
 /home/aelabass/Documents/geant4.10.01.p03/geant4.10.01.p03-install/include/Geant4/evmandefs.hh
 trajectoryControl.hh
