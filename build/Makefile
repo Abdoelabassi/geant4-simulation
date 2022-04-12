@@ -155,6 +155,33 @@ sim/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/build
 .PHONY : sim/fast
 
+action.o: action.cc.o
+
+.PHONY : action.o
+
+# target to build an object file
+action.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/action.cc.o
+.PHONY : action.cc.o
+
+action.i: action.cc.i
+
+.PHONY : action.i
+
+# target to preprocess a source file
+action.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/action.cc.i
+.PHONY : action.cc.i
+
+action.s: action.cc.s
+
+.PHONY : action.s
+
+# target to generate assembly for a file
+action.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/action.cc.s
+.PHONY : action.cc.s
+
 construction.o: construction.cc.o
 
 .PHONY : construction.o
@@ -246,6 +273,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Simulation"
 	@echo "... sim"
+	@echo "... action.o"
+	@echo "... action.i"
+	@echo "... action.s"
 	@echo "... construction.o"
 	@echo "... construction.i"
 	@echo "... construction.s"

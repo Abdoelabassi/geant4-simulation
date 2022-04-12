@@ -8,13 +8,14 @@
 
 #include "construction.hh"
 #include "physics.hh"
-
+#include "action.hh"
 
 int main(int argc, char** argv){
 
 	G4RunManager *runManager = new G4RunManager();
 	runManager->SetUserInitialization(new MyDetectorConstruction());
 	runManager->SetUserInitialization(new myphysicsList());
+	runManager->SetUserInitialization(new myActionInit());
 	runManager->Initialize();
 
 	G4UIExecutive *ui = new G4UIExecutive(argc, argv);
