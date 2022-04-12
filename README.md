@@ -12,4 +12,4 @@ make
 
 #installation
 
-go to https://geant4.cern.ch
+go to https://www.geant4.cern.ch
