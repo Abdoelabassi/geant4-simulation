@@ -1,5 +1,5 @@
 #include "construction.hh"
-
+#include "detector.hh"
 
 MyDetectorConstruction::MyDetectorConstruction()
 {}
@@ -72,7 +72,7 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct(){
 
 	for (G4int i=0;i<100;i++)
 	{
-		for (G4int j; j<100; j++)
+		for (G4int j=0; j<100; j++)
 		{
 			G4VPhysicalVolume *physDetector = new G4PVPlacement(
 
@@ -89,4 +89,10 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct(){
 	}
 
 	return physWorld;
+}
+
+void MyDetectorConstruction::ConstructSDandField()
+{
+	myDetector *sensitiveDet = new myDetector("SensitiveDecetor");
+	logicDetector->SetSensitiveDetector(sensitiveDet);
 }
