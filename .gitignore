@@ -1,2 +1,2 @@
-
-*build*
+# build directory typically used with cmake
+build
