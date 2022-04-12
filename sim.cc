@@ -25,7 +25,7 @@ int main(int argc, char** argv){
 
 
 	G4UImanager *uiManager =  G4UImanager::GetUIpointer();
-	uiManager->ApplyCommand("/vis/open OGL");
+	uiManager->ApplyCommand("/vis/open OGLSX");
 	uiManager->ApplyCommand("/vis/viewer/set/viewpointVector 1 1 1");
 	uiManager->ApplyCommand("/vis/drawVolume");
 	uiManager->ApplyCommand("/vis/viewer/set/autorefresh true");

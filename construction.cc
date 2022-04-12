@@ -65,5 +65,28 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct(){
 
 	G4VPhysicalVolume *physRadiator = new G4PVPlacement(0, G4ThreeVector(0,0,0.25*m), logicRadiator, "physRadiator", logicWorld, false, 0, true);
 
+
+	G4Box *solidDetector = new G4Box("solidDetector", 0.005*m, 0.005*m,0.001*m);
+
+	logicDetector = new G4LogicalVolume(solidDetector, worldMat, "logicDetector");
+
+	for (G4int i=0;i<100;i++)
+	{
+		for (G4int j; j<100; j++)
+		{
+			G4VPhysicalVolume *physDetector = new G4PVPlacement(
+
+				0,
+				G4ThreeVector(-0.5*m+(i+0.5)*m/100, -0.5*m+(j+0.5)*m/100, 0.49*m),
+				logicDetector,
+				 "physDetector",
+				  logicWorld,
+				   false,
+				    j+i*100,
+				    true);
+				
+		}
+	}
+
 	return physWorld;
 }
