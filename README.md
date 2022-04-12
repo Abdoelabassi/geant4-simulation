@@ -5,7 +5,7 @@ This is a Geant4 application :
 
 #build
 
-mkdir build && cd build && cmake .. & make
+mkdir build && cd build && cmake .. &&  make
 
 
 #installation
