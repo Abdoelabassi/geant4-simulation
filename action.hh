@@ -3,6 +3,7 @@
 
 #include "G4VUserActionInitialization.hh"
 #include "generator.hh"
+#include "run.hh"
 
 
 class myActionInit : public G4VUserActionInitialization

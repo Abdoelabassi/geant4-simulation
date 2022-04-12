@@ -30,8 +30,8 @@ int main(int argc, char** argv){
 	uiManager->ApplyCommand("/vis/drawVolume");
 	uiManager->ApplyCommand("/vis/viewer/set/autorefresh true");
 	uiManager->ApplyCommand("/vis/scene/add/trajectories smooth");
-	//uiManager->ApplyCommand("/run/beamOn 10");
 	uiManager->ApplyCommand("/vis/scene/endOfEventAction accumulate");
+	uiManager->ApplyCommand("/run/beamOn 1000");
 
 
 	ui->SessionStart();
