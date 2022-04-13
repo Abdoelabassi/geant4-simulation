@@ -123,6 +123,9 @@ void test1()
 	double std = fit->GetParameter(2);
 
 
+	c->Print("hist.png");
+
+
 	delete rand;
 
 }
