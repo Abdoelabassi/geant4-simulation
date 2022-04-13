@@ -2,12 +2,10 @@ void test1()
 {
 	//simple 1d histogram
 
-	TH1F *hist = new TH1F("hist", "Hitogram", 100, 0, 10);
+	TH1F *hist = new TH1F("hist", "k+ mass", 100, 0, 15);
 
 
-	hist->GetXaxis()->SetTitle("distro");
-	hist->GetYaxis()->SetTitle("entries");
-
+	
 	//Random vars:
 	//write the data to a file:
 
@@ -67,10 +65,43 @@ void test1()
 	//TCanvas *c1 = new TCanvas();
 	//g->Draw("ACP");
 
+
+	hist->GetXaxis()->SetTitle("Reconstructed mass");
+	hist->GetYaxis()->SetTitle("Events");
+	hist->GetXaxis()->SetTitleSize(0.05);
+	hist->GetYaxis()->SetTitleSize(0.05);
+	hist->GetXaxis()->SetLabelSize(0.05);
+	hist->GetYaxis()->SetLabelSize(0.05);
+
+	TF1 *fit = new TF1("fit", "gaus", 0, 15);
+
+	fit->SetLineWidth(3);
+	fit->SetLineColor(kRed);
+	fit->SetLineStyle(1);
+
+	fit->SetParameter(0,40);
+	fit->SetParameter(1,5);
+	fit->SetParameter(2,1);
+
+	
+
+
 	TCanvas *c = new TCanvas();
 	//hist->GetYaxis()->SetRangeUser(0,200);
-	hist->Fit("gaus");
+	c->SetTickx();
+	c->SetTicky();
+	hist->SetFillColor(kGreen-9);
+	hist->SetStats(0);
+	hist->Fit("fit");
 	hist->Draw();
+
+	TLegend *leg = new TLegend(0.7,0.7,0.9,0.9);
+	leg->AddEntry(hist, "Measured data", "f");
+	leg->AddEntry(fit, "fit Fuction", "l");
+	leg->Draw();
+
+	double mean = fit->GetParameter(1);
+	double std = fit->GetParameter(2);
 
 
 	delete rand;
