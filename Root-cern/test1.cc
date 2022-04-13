@@ -90,7 +90,7 @@ void test1()
 	//hist->GetYaxis()->SetRangeUser(0,200);
 	c->SetTickx();
 	c->SetTicky();
-	hist->SetFillColor(kGreen-9);
+	hist->SetFillColor(kAzure);
 	hist->SetStats(0);
 	hist->Fit("fit");
 	hist->Draw();
@@ -99,6 +99,25 @@ void test1()
 	leg->AddEntry(hist, "Measured data", "f");
 	leg->AddEntry(fit, "fit Fuction", "l");
 	leg->Draw();
+
+
+	TLine *l = new TLine(0,10,15,20);
+	l->SetLineWidth(2);
+	l->SetLineColor(kOrange);
+
+	double x0 = 6.2;
+	int bin = hist->FindBin(x0);
+	double y0 = hist->GetBinContent(bin);
+
+
+	TArrow *arr = new TArrow(10,20,x0,y0);
+	arr->SetLineColor(kGreen+2);
+	arr->SetArrowSize(0.02);
+	arr->SetLineWidth(2);
+	arr->Draw();
+
+	TLatex *tex = new TLatex(10,20, "kappa important");
+	tex->Draw();
 
 	double mean = fit->GetParameter(1);
 	double std = fit->GetParameter(2);
