@@ -8,6 +8,7 @@
 #include "G4PVPlacement.hh"
 #include "G4VPhysicalVolume.hh"
 #include "G4NistManager.hh"
+#include "G4GenericMessenger.hh"
 
 class MyDetectorConstruction : public G4VUserDetectorConstruction 
 
@@ -29,6 +30,21 @@ private:
 	G4LogicalVolume * logicDetector;
 
 	virtual void ConstructSDandField();
+
+	G4int nCols, nRows;
+
+	G4Box *solidWorld , *solidRadiator, *solidDetector;
+
+	G4LogicalVolume *logicWorld, *logicRadiator;
+
+	G4Material *SiO2, *H2O, *Aerogel, *worldMat;
+
+	G4Element *C;
+
+
+	G4GenericMessenger *fMessenger;
+
+	void DefineMaterials();
 
 };
 
