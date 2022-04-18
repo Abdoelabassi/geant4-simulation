@@ -23,5 +23,5 @@ $p = 10 GeV proton gun :
 
 ![alt text](https://github.com/Abdoelabassi/geant4-simulation/blob/develop/screenshots/10momGeVproton.png?raw=true)
 
-![alt text](https://github.com/Abdoelabassi/geant4-simulation/blob/develop/screenshots/e10gevmom-proton.png?raw=true)
+![alt text](https://github.com/Abdoelabassi/geant4-simulation/blob/develop/screenshots/10gevmom-proton.png?raw=true)
 
