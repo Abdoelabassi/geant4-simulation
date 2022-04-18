@@ -13,13 +13,15 @@ mkdir build && cd build && cmake .. &&  make
 go to https://geant4.web.cern.ch
 
 
+##Radioactive simulation of Cobalt60, the detector used is NaI Scintillator Tubs, using G4Tubs class:
+
 #Screenshots
 
-$Radioactive decay of NaI 100 event :
+$Radioactive decay of Cobalt60 100 event :
 
 ![alt text](https://github.com/Abdoelabassi/geant4-simulation/blob/develop/screenshots/Co-100ev.png?raw=true)
 
-$Radioactive decay of NaI 1000 event :
+$Radioactive decay of Cobalt60 1000 event :
 
 ![alt text](https://github.com/Abdoelabassi/geant4-simulation/blob/develop/screenshots/Co-1000ev.png?raw=true)
 
