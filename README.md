@@ -19,10 +19,10 @@ go to https://geant4.web.cern.ch
 
 $Radioactive decay of Cobalt60 100 event :
 
-![alt text](https://github.com/Abdoelabassi/geant4-simulation/blob/develop/screenshots/Co-100ev.png?raw=true)
+![alt text](https://github.com/Abdoelabassi/geant4-simulation/blob/radioactiveDecay/screenshots/Co-100ev.png?raw=true)
 
 $Radioactive decay of Cobalt60 1000 event :
 
-![alt text](https://github.com/Abdoelabassi/geant4-simulation/blob/develop/screenshots/Co-1000ev.png?raw=true)
+![alt text](https://github.com/Abdoelabassi/geant4-simulation/blob/radioactiveDecay/screenshots/Co-1000ev.png?raw=true)
 
 
