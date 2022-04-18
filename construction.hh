@@ -10,6 +10,8 @@
 #include "G4NistManager.hh"
 #include "G4GenericMessenger.hh"
 
+#include "detector.hh"
+
 class MyDetectorConstruction : public G4VUserDetectorConstruction 
 
 {
@@ -21,6 +23,8 @@ public:
 
 	MyDetectorConstruction();
 	~MyDetectorConstruction();
+
+	G4LogicalVolume *GetScoringVolume() const {return fScoringVolume;}
 
 
 
@@ -43,6 +47,7 @@ private:
 
 
 	G4GenericMessenger *fMessenger;
+	G4LogicalVolume *fScoringVolume;
 
 	void DefineMaterials();
 

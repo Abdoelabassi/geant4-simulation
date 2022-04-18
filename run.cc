@@ -21,6 +21,10 @@ Run::Run()
 	man->CreateNtupleDColumn("fZ");
 	man->FinishNtuple(1);
 
+	man->CreateNtuple("Scoring", "Scoring");
+    man->CreateNtupleDColumn("fEdep");
+    man->FinishNtuple(2);
+
 }
 
 Run::~Run(){}
