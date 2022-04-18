@@ -15,13 +15,12 @@ go to https://geant4.web.cern.ch
 
 #Screenshots
 
-$p = 100 GeV$ proton gun :
+$Radioactive decay of NaI 100 event :
 
-![alt text](https://github.com/Abdoelabassi/geant4-simulation/blob/develop/screenshots/Run-100.png?raw=true)
+![alt text](https://github.com/Abdoelabassi/geant4-simulation/blob/develop/screenshots/Co-100ev.png?raw=true)
 
-$p = 10 GeV proton gun :
+$Radioactive decay of NaI 1000 event :
 
-![alt text](https://github.com/Abdoelabassi/geant4-simulation/blob/develop/screenshots/10momGeVproton.png?raw=true)
+![alt text](https://github.com/Abdoelabassi/geant4-simulation/blob/develop/screenshots/Co-1000ev.png?raw=true)
 
-![alt text](https://github.com/Abdoelabassi/geant4-simulation/blob/develop/screenshots/10gevmom-proton.png?raw=true)
 
