@@ -6,8 +6,18 @@ install geant4, visit https://geant4.web.cern.ch
 
 #build
 
+on bash :
 
-mkdir build && cd build && cmake .. && make
+```
+mkdir build
+
+cd build
+
+cmake ../
+
+make -jN
+
+ ```
 
 
 Thanks to Mustapha Tutorial #PhysicsMatters Youtube Channel
