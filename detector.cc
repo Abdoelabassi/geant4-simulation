@@ -19,7 +19,7 @@ myDetector::myDetector(G4String name): G4VSensitiveDetector(name)
 		if(datafile.eof()) break;
 
 
-		G4cout << wlen << " " << Qeff << G4endl;
+		//G4cout << wlen << " " << Qeff << G4endl;
 
 		QE->InsertValues(wlen, Qeff);
 	}
@@ -59,7 +59,7 @@ G4bool myDetector::ProcessHits(G4Step *aStep, G4TouchableHistory
 		G4VPhysicalVolume *phyvol = touch->GetVolume();
 		G4ThreeVector posDetector = phyvol->GetTranslation();
 
-		G4cout << "Detector position :" << posDetector << G4endl;
+		//G4cout << "Detector position :" << posDetector << G4endl;
 		
 		G4int evt = G4RunManager::GetRunManager()->GetCurrentEvent()->GetEventID();
 

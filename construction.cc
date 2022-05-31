@@ -15,8 +15,8 @@ MyDetectorConstruction::MyDetectorConstruction()
 
 	DefineMaterials();
 
-	isCherenkov = false;
-	isScintillator = true;
+	isCherenkov = true;
+	isScintillator = false;
 }
 
 MyDetectorConstruction::~MyDetectorConstruction()
@@ -90,12 +90,23 @@ void MyDetectorConstruction::ConstructCherenkov(){
 
 void MyDetectorConstruction::ConstructScintillator(){
 
-	solidScintillator = new G4Tubs("solidScintillator", 10*cm, 20*cm, 30*cm, 0*deg, 360*deg);
-
+	solidScintillator = new G4Box("solidScintillator", 5*cm, 5*cm, 6*cm);
+    solidDetector = new G4Box("solidDetector", 1*cm, 5*cm, 6*cm);
+	logicDetector = new G4LogicalVolume(solidDetector, worldMat, "logicDetector");
 	logicScintillator = new G4LogicalVolume(solidScintillator, NaI, "logicScintillator");
 	fScoringVolume = logicScintillator;
+    for(G4int i=0; i<6;i++){
+	    for(G4int j=0;j<16;j++){
+		    G4Rotate3D rotZ(j*22.5*deg, G4ThreeVector(0,0,1));
+		    G4Translate3D transXScin(G4ThreeVector(5/tan(22.5/2*deg)*cm+5*cm,0*cm,-40*cm+i*15*cm));
+		    G4Translate3D transXDet(G4ThreeVector(5/tan(22.5/2*deg)*cm+6*cm+5*cm,0*cm,-40*cm+i*15*cm));
+		    G4Transform3D transform = rotZ*transXScin;
+		    G4Transform3D transform2 = rotZ*transXDet;
+	        phyScintillator = new G4PVPlacement(transform, logicScintillator, "physScintillator", logicWorld, false,0,true);
+	        physDetector = new G4PVPlacement(transform2, logicDetector, "physDetector", logicWorld, false,0,true);
 
-	phyScintillator = new G4PVPlacement(0, G4ThreeVector(0,0,0), logicScintillator, "physScintillator", logicWorld, false,0,true);
+	    }
+    }
 
 }
 
@@ -107,6 +118,7 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct(){
 	G4double energy[2] = {1.239841939*eV/0.2, 1.239841939*eV/0.9};
 	G4double rindexAerogel[2] = {1.1,1.1};
 	G4double rindexWorld[2] = {1.0,1.0};
+	G4double rindexNaI[2] = {1.78,1.78};
 
 	G4MaterialPropertiesTable *mptAerogel = new G4MaterialPropertiesTable();
 	mptAerogel->AddProperty("RINDEX", energy, rindexAerogel, 2);
@@ -115,11 +127,22 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct(){
 
 	Aerogel->SetMaterialPropertiesTable(mptAerogel);
 
-
-	
+    
+	G4double fraction[2] = {1.0, 1.0};
 
 	G4MaterialPropertiesTable *mptWorld = new G4MaterialPropertiesTable();
+	G4MaterialPropertiesTable *mptNaI = new G4MaterialPropertiesTable();
 	mptWorld->AddProperty("RINDEX", energy, rindexWorld,2);
+	mptNaI->AddProperty("RINDEX", energy, rindexNaI,2);
+	mptNaI->AddProperty("FASTCOMPONENT", energy, fraction,2);
+	mptNaI->AddConstProperty("SCINTILLATIONYIELD", 38/keV);
+	mptNaI->AddConstProperty("RESOLUTIONSCALE", 1.0);
+	mptNaI->AddConstProperty("FASTTIMECONSTANT", 250*ns);
+	mptNaI->AddConstProperty("YIELDRATIO", 1.0);
+
+	NaI->SetMaterialPropertiesTable(mptNaI);
+
+
 	worldMat->SetMaterialPropertiesTable(mptWorld);
 
 	solidWorld = new G4Box("solidWorld", 0.5*m, 0.5*m, 0.5*m);
@@ -154,7 +177,7 @@ void MyDetectorConstruction::ConstructSDandField()
 {
 	myDetector *sensitiveDet = new myDetector("SensitiveDecetor");
 
-	if(isCherenkov){
+	if(logicDetector != nullptr){
 	logicDetector->SetSensitiveDetector(sensitiveDet);
 }
 
